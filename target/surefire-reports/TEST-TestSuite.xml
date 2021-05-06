@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.895" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\capduyvuong\IdeaProjects\qc-project\target\test-classes;C:\Users\capduyvuong\IdeaProjects\qc-project\target\classes;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-testng\2.13.1\allure-testng-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\capduyvuong\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\capduyvuong\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\capduyvuong\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\capduyvuong\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\rest-assured\3.0.6\rest-assured-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\capduyvuong\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\capduyvuong\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\json-path\3.0.6\json-path-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-junit\2.0.0.0\hamcrest-junit-2.0.0.0.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\capduyvuong\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\capduyvuong\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\capduyvuong\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\capduyvuong\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\capduyvuong\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\capduyvuong\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\capduyvuong\.m2\repository\org\slf4j\slf4j-simple\1.6.2\slf4j-simple-1.6.2.jar;C:\Users\capduyvuong\.m2\repository\org\slf4j\slf4j-api\1.6.2\slf4j-api-1.6.2.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\xml-path\3.0.6\xml-path-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\rest-assured-common\3.0.6\rest-assured-common-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\capduyvuong\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\capduyvuong\.m2\repository\org\postgresql\postgresql\42.2.5\postgresql-42.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="suiteXmlFile" value="src\test\java\TestSuite\testNG.xml"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\capduyvuong\AppData\Local\Temp\surefire5486363030574252639\surefirebooter6054409100986964517.jar C:\Users\capduyvuong\AppData\Local\Temp\surefire5486363030574252639 2021-03-15T14-28-47_609-jvmRun1 surefire8269422360034235087tmp surefire_04814878306866977624tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\capduyvuong\IdeaProjects\qc-project\target\test-classes;C:\Users\capduyvuong\IdeaProjects\qc-project\target\classes;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-testng\2.13.1\allure-testng-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\capduyvuong\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\capduyvuong\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\capduyvuong\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\capduyvuong\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\capduyvuong\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\rest-assured\3.0.6\rest-assured-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy\2.4.12\groovy-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.12\groovy-xml-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\capduyvuong\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\capduyvuong\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\capduyvuong\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\json-path\3.0.6\json-path-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\codehaus\groovy\groovy-json\2.4.12\groovy-json-2.4.12.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\hamcrest-junit\2.0.0.0\hamcrest-junit-2.0.0.0.jar;C:\Users\capduyvuong\.m2\repository\org\hamcrest\java-hamcrest\2.0.0.0\java-hamcrest-2.0.0.0.jar;C:\Users\capduyvuong\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\capduyvuong\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\capduyvuong\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\capduyvuong\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\capduyvuong\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\capduyvuong\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\capduyvuong\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\Users\capduyvuong\.m2\repository\org\slf4j\slf4j-simple\1.6.2\slf4j-simple-1.6.2.jar;C:\Users\capduyvuong\.m2\repository\org\slf4j\slf4j-api\1.6.2\slf4j-api-1.6.2.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\xml-path\3.0.6\xml-path-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\io\rest-assured\rest-assured-common\3.0.6\rest-assured-common-3.0.6.jar;C:\Users\capduyvuong\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\capduyvuong\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\capduyvuong\.m2\repository\org\postgresql\postgresql\42.2.5\postgresql-42.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\capduyvuong"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\capduyvuong\IdeaProjects\qc-project"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\capduyvuong\AppData\Local\Temp\surefire5486363030574252639\surefirebooter6054409100986964517.jar;C:\Users\capduyvuong\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="capduyvuong"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\capduyvuong\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CAPDUY~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\capduyvuong\IdeaProjects\qc-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\capduyvuong\AppData\Local\Microsoft\WindowsApps;C:\Users\capduyvuong\AppData\Local\Android\Sdk\platform-tools;;C:\Users\capduyvuong\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="getMileStoneDetailIdAndName" classname="ReferralChallenge.TestReferralChallenge" time="0.005">
+    <system-out><![CDATA[{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJRaGxlQ1B0TzYzZmt1XzMyU3U0WUJzd0dvMVdjMWNNcGNRSldmQUhsWjlzIn0.eyJqdGkiOiJhNjZmZTlmZC1kOGIxLTRjZWItYmNhYS1hNmUwYmExMmI0MjkiLCJleHAiOjE2NDczMjkzMzcsIm5iZiI6MCwiaWF0IjoxNjE1NzkzMzM3LCJpc3MiOiJodHRwczovL3V1a3VhdC50YXB0YXAuY29tLnZuL2F1dGgvcmVhbG1zL21vYmlsZSIsImF1ZCI6WyJjbXMtY2xpZW50IiwiYXZhdGFyLXNlcnZpY2UiLCJjaGFsbGVuZ2Utc2VydmljZSIsInJlZmVycmFsLWNoYWxsZW5nZSIsImFjY291bnQiLCJpbnRlZ3JhdGlvbi1jbGllbnQiLCJlY29tbWVyY2UtY2xpZW50Il0sInN1YiI6ImMyZDE5YjVjLTUyNmQtNGZmZC05NzYzLTQxNWUzZjlkMWJkYyIsInR5cCI6IkJlYXJlciIsImF6cCI6Im1vYmlsZS1jbGllbnQiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI4ZTM5MGMxMi0zZDBlLTRhMzYtYTE4ZC1lMDQ1OGViYWM3YjMiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJjbXMtY2xpZW50Ijp7InJvbGVzIjpbIm1vYmlsZV9hZG1pbiIsImltYWdlX3VwbG9hZCIsInN0b3JlX2VkaXQiLCJ3aGVlbF9kZWxldGUiLCJzdG9yZXRpbGxfY3JlYXRlIiwid2hlZWxfcHVibGlzaCIsImRpbmVfaW5fdHJhbnNhY3Rpb25fbGlzdCIsImltYWdlX2RlbGV0ZSIsInN0b3JlX2xpc3QiLCJ3aGVlbF9saXN0IiwicG9pbnRfY29udmVyc2lvbl90cmFuc2FjdGlvbl9saXN0Iiwic3RvcmV0aWxsX2VkaXQiLCJzdG9yZV9kZWxldGUiLCJicmFuZF9lZGl0IiwidW1hX3Byb3RlY3Rpb24iLCJzdG9yZXRpbGxfbGlzdCIsIndoZWVsX2NyZWF0ZSIsImJyYW5kX2NyZWF0ZSIsInRydWUtbW9uZXktYWRtaW4iLCJ3aGVlbF91bnB1Ymxpc2giLCJhcHBfZm9yY2VfcmVhZCIsImFwcF9mb3JjZV91cGRhdGUiLCJzdG9yZXRpbGxfZGVsZXRlIiwic3RvcmVfY3JlYXRlIiwid2hlZWxfZWRpdCIsImJyYW5kX2xpc3QiLCJpbWFnZV9saXN0Il19LCJhdmF0YXItc2VydmljZSI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiY2hhbGxlbmdlLXNlcnZpY2UiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iLCJNT0JJTEVfQURNSU4iXX0sInJlZmVycmFsLWNoYWxsZW5nZSI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwibW9iaWxlLWNsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiIsImJvbnVzX2dpZnRfdHlwZV9saXN0Iiwicm9sZV9icmFuZF9saXN0IiwiYm9udXNfdHJhbnNhY3Rpb25fbGlzdCIsIk1PQklMRV9BRE1JTiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19LCJpbnRlZ3JhdGlvbi1jbGllbnQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX0sImVjb21tZXJjZS1jbGllbnQiOnsicm9sZXMiOlsidW1hX3Byb3RlY3Rpb24iXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJhcHAtY29uZmlnIjp7ImluZm9ybS11cmwiOiJodHRwczovL3RoaXJkcGFydHkuY29tIiwiaW5mb3JtLXBhc3N3b3JkIjoidGFwdGFwQDEyMyIsImluZm9ybS11c2VybmFtZSI6InRhcHRhcCJ9LCJjbGllbnRIb3N0IjoiMTEzLjE2MS45Mi4zMSIsImNsaWVudElkIjoibW9iaWxlLWNsaWVudCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LW1vYmlsZS1jbGllbnQiLCJjbGllbnRBZGRyZXNzIjoiMTEzLjE2MS45Mi4zMSJ9.bVGeUiqrd-pWjhcMONiXQQVCCoLbgr3PPN8aHyUuUKRAKQNvSpjU8siK1IlyDsdKoSQTNstejds2bUkrA9xFSx-0am_YFLF2j0-Z8ljaJjYtdYEypjbHux-JnvXmf63oHajcKZ5qBg1Qd7_EaADFsvt0HA6PEgkUBnbfe59KIw3068uaGW-TkOytCdczLHemAW9o0KKF10YSGBrnCdRVpwunkzSqZzHqyVxKeER-8vc_hD32b9_-yExioDp1BHbz7gRGOax0npgSRv0SBMu_PXqPW0uRag5ZiioqvmaatiKkbTLWsGF8X0TBBQKnr1JfP-32WHYcqKD-OATYmLsctw",
+    "expires_in": 31536000,
+    "refresh_expires_in": 1800,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0ZTI0YzQ1NC1lNGY2LTQ1MzEtOGIzZS0yMDQ4ZTc3ZWYxZjAifQ.eyJqdGkiOiI2YTA5MWJjYy0zY2IyLTQ1NmUtYTBhYi0zNTZmZjk5MmY4YzQiLCJleHAiOjE2MTU3OTUxMzcsIm5iZiI6MCwiaWF0IjoxNjE1NzkzMzM3LCJpc3MiOiJodHRwczovL3V1a3VhdC50YXB0YXAuY29tLnZuL2F1dGgvcmVhbG1zL21vYmlsZSIsImF1ZCI6Imh0dHBzOi8vdXVrdWF0LnRhcHRhcC5jb20udm4vYXV0aC9yZWFsbXMvbW9iaWxlIiwic3ViIjoiYzJkMTliNWMtNTI2ZC00ZmZkLTk3NjMtNDE1ZTNmOWQxYmRjIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6Im1vYmlsZS1jbGllbnQiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI4ZTM5MGMxMi0zZDBlLTRhMzYtYTE4ZC1lMDQ1OGViYWM3YjMiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImNtcy1jbGllbnQiOnsicm9sZXMiOlsibW9iaWxlX2FkbWluIiwiaW1hZ2VfdXBsb2FkIiwic3RvcmVfZWRpdCIsIndoZWVsX2RlbGV0ZSIsInN0b3JldGlsbF9jcmVhdGUiLCJ3aGVlbF9wdWJsaXNoIiwiZGluZV9pbl90cmFuc2FjdGlvbl9saXN0IiwiaW1hZ2VfZGVsZXRlIiwic3RvcmVfbGlzdCIsIndoZWVsX2xpc3QiLCJwb2ludF9jb252ZXJzaW9uX3RyYW5zYWN0aW9uX2xpc3QiLCJzdG9yZXRpbGxfZWRpdCIsInN0b3JlX2RlbGV0ZSIsImJyYW5kX2VkaXQiLCJ1bWFfcHJvdGVjdGlvbiIsInN0b3JldGlsbF9saXN0Iiwid2hlZWxfY3JlYXRlIiwiYnJhbmRfY3JlYXRlIiwidHJ1ZS1tb25leS1hZG1pbiIsIndoZWVsX3VucHVibGlzaCIsImFwcF9mb3JjZV9yZWFkIiwiYXBwX2ZvcmNlX3VwZGF0ZSIsInN0b3JldGlsbF9kZWxldGUiLCJzdG9yZV9jcmVhdGUiLCJ3aGVlbF9lZGl0IiwiYnJhbmRfbGlzdCIsImltYWdlX2xpc3QiXX0sImF2YXRhci1zZXJ2aWNlIjp7InJvbGVzIjpbInVtYV9wcm90ZWN0aW9uIl19LCJjaGFsbGVuZ2Utc2VydmljZSI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiIsIk1PQklMRV9BRE1JTiJdfSwicmVmZXJyYWwtY2hhbGxlbmdlIjp7InJvbGVzIjpbInVtYV9wcm90ZWN0aW9uIl19LCJtb2JpbGUtY2xpZW50Ijp7InJvbGVzIjpbInVtYV9wcm90ZWN0aW9uIiwiYm9udXNfZ2lmdF90eXBlX2xpc3QiLCJyb2xlX2JyYW5kX2xpc3QiLCJib251c190cmFuc2FjdGlvbl9saXN0IiwiTU9CSUxFX0FETUlOIl19LCJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX0sImludGVncmF0aW9uLWNsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfSwiZWNvbW1lcmNlLWNsaWVudCI6eyJyb2xlcyI6WyJ1bWFfcHJvdGVjdGlvbiJdfX0sInNjb3BlIjoicHJvZmlsZSBlbWFpbCJ9.Wn2pyxSrpdXtimC0_M38_X3fVWnRDZ2bWPiLegVkwJw",
+    "token_type": "bearer",
+    "not-before-policy": 1609987970,
+    "session_state": "8e390c12-3d0e-4a36-a18d-e0458ebac7b3",
+    "scope": "profile email"
+}
+{
+    "status": 200,
+    "data": {
+        "id": "c0a887e4-781a-19bb-8178-1bbd332e00fd",
+        "name": "New challenge 4",
+        "totalOptedIn": 405,
+        "introImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/test-referral-intro-20210105-142105.png",
+        "introDescription": "<p>CHÈ E CHE , LỜ ƠN LƠN</p>",
+        "tnc": "<p>Không có điều kiện điều khoản</p>",
+        "codeGuidance": "<p>không có hướng dẫn</p>",
+        "codeSuggestion": "<p>không có đề xuất</p>",
+        "refcode": "KUUGFODRFJ5799",
+        "currentMilestoneId": "c0a86638-7825-1e7c-8178-313ff64c0000",
+        "endDate": "2021-03-19 17:37:09",
+        "milestoneDtos": [
+            {
+                "id": "c0a86638-7825-1e7c-8178-313ff64c0000",
+                "name": "Khúc tình đầu ",
+                "milestoneId": "c0a887e4-781a-19bb-8178-1bbd333100ff",
+                "coverImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/referral_fullsize_5-20210303-153930.png",
+                "backgroundColor": "#9900ef",
+                "targetInviteFriendNum": 1,
+                "currentInviteFriendNum": 0,
+                "targetInviteFriendContent": "dủ 1 é",
+                "targetRefereeTransactionsNum": 0,
+                "currentRefereeTransactionsNum": 0,
+                "targetRefereeTransactionsContent": null,
+                "referrerPackageRemaining": 22,
+                "referrerPointNum": 11,
+                "referrerVoucherNum": 0,
+                "content": "<p>không có nội dung</p>",
+                "completed": false,
+                "topupedGift": false
+            },
+            {
+                "id": "c0a86638-7825-1e7c-8178-313ff6b30001",
+                "name": "lá thư tình thứ 2",
+                "milestoneId": "c0a887e4-781a-19bb-8178-1bbd33320100",
+                "coverImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/referral_fullsize_4-20210303-153914.png",
+                "backgroundColor": "#eb144c",
+                "targetInviteFriendNum": 2,
+                "currentInviteFriendNum": 0,
+                "targetInviteFriendContent": "dủ 1 é",
+                "targetRefereeTransactionsNum": 1,
+                "currentRefereeTransactionsNum": 0,
+                "targetRefereeTransactionsContent": "làm 1 áy",
+                "referrerPackageRemaining": 14,
+                "referrerPointNum": 11,
+                "referrerVoucherNum": 1,
+                "content": "<p>không có nội dung</p>",
+                "completed": false,
+                "topupedGift": false
+            },
+            {
+                "id": "c0a86638-7825-1e7c-8178-313ff6b40002",
+                "name": "người thứ 3",
+                "milestoneId": "c0a887e4-781a-19bb-8178-1bbd33380102",
+                "coverImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/referral_fullsize_5-20210303-153930.png",
+                "backgroundColor": "#ff6900",
+                "targetInviteFriendNum": 2,
+                "currentInviteFriendNum": 0,
+                "targetInviteFriendContent": "dủ 1 é",
+                "targetRefereeTransactionsNum": 2,
+                "currentRefereeTransactionsNum": 0,
+                "targetRefereeTransactionsContent": "làm 2 áy",
+                "referrerPackageRemaining": 14,
+                "referrerPointNum": 11,
+                "referrerVoucherNum": 2,
+                "content": "<p>không có nội dung</p>",
+                "completed": false,
+                "topupedGift": false
+            },
+            {
+                "id": "c0a86638-7825-1e7c-8178-313ff6b40003",
+                "name": "ko có thứ 4",
+                "milestoneId": "c0a887e4-781a-19bb-8178-1bbd33390104",
+                "coverImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/referral_fullsize_5-20210303-153930.png",
+                "backgroundColor": "#ff6900",
+                "targetInviteFriendNum": 3,
+                "currentInviteFriendNum": 0,
+                "targetInviteFriendContent": "dủ 1 é",
+                "targetRefereeTransactionsNum": 3,
+                "currentRefereeTransactionsNum": 0,
+                "targetRefereeTransactionsContent": "làm 2 áy",
+                "referrerPackageRemaining": 14,
+                "referrerPointNum": 11,
+                "referrerVoucherNum": 3,
+                "content": "<p>không có nội dung</p>",
+                "completed": false,
+                "topupedGift": false
+            }
+        ]
+    },
+    "message": "Success"
+}
+{
+    "status": 7001,
+    "data": {
+        "mobile": "",
+        "refcode": "",
+        "suggestRefcodes": [
+            "ZZAVJTAXJO0388",
+            "GKDQAFDSZX0192"
+        ]
+    },
+    "message": "Nhập tối thiểu 9 ký tự, tối đa 14 ký tự"
+}
+{
+    "status": 200,
+    "data": {
+        "id": "c0a86638-7825-1e7c-8178-313ff64c0000",
+        "name": "Khúc tình đầu ",
+        "milestoneId": "c0a887e4-781a-19bb-8178-1bbd333100ff",
+        "coverImageUrl": "https://s3.ap-southeast-1.amazonaws.com/cms-be/test/gift-logo/referral_fullsize_5-20210303-153930.png",
+        "backgroundColor": "#9900ef",
+        "referrerPointNum": 11,
+        "referrerVoucherNum": 0,
+        "refCode": null,
+        "content": "<p>không có nội dung</p>",
+        "currentInviteFriendNum": 0,
+        "targetInviteFriendNum": 1,
+        "targetInviteFriendContent": "dủ 1 é",
+        "inviteFriendList": [
+            
+        ],
+        "currentRefereeTransactionsNum": 0,
+        "targetRefereeTransactionsNum": 0,
+        "refereeTransactionList": [
+            
+        ],
+        "targetRefereeTransactionsContent": "",
+        "referrerPackageRemaining": 22,
+        "voucherDetails": [
+            
+        ],
+        "totalOptedIn": 405,
+        "completed": false,
+        "topupedGift": false
+    },
+    "message": "Success"
+}
+{
+    "status": 500,
+    "message": "JSON parse error: Unexpected character ('\"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('\"' (code 34)): was expecting comma to separate Object entries\n at [Source: (PushbackInputStream); line: 4, column: 3]"
+}
+ID of Referral MileStone Detail is: c0a86638-7825-1e7c-8178-313ff64c0000
+Name of Referral MileStone is: Khúc tình đầu 
+TEST PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="getRunningReferralCodeAndName" classname="ReferralChallenge.TestReferralChallenge" time="0.005">
+    <system-out><![CDATA[Referral code of Running Referral Challenge is: KUUGFODRFJ5799
+MileStone Id of Running Referral Challenge is: c0a86638-7825-1e7c-8178-313ff64c0000
+Referral code of Running Referral Challenge is: New challenge 4
+]]></system-out>
+  </testcase>
+  <testcase name="getStatusCodeReferralMileStoneDetail" classname="ReferralChallenge.TestReferralChallenge" time="0.001">
+    <system-out><![CDATA[Status code of API Referral MileStone Detail is: 200
+TEST PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="getStatusCodeRegisterReferee" classname="ReferralChallenge.TestReferralChallenge" time="0.002">
+    <system-out><![CDATA[Status code of API Register Referee is: 500
+TEST FAILED
+]]></system-out>
+  </testcase>
+  <testcase name="getStatusCodeRunningReferral" classname="ReferralChallenge.TestReferralChallenge" time="0.001">
+    <system-out><![CDATA[Status code of API Get All Running Referral Challenge is: 200
+TEST PASSED
+]]></system-out>
+  </testcase>
+  <testcase name="getStatusCodeVerifyCreateReferralCode" classname="ReferralChallenge.TestReferralChallenge" time="0.001">
+    <system-out><![CDATA[Status code of API Verify Created Referral Challenge is: 400
+]]></system-out>
+  </testcase>
+  <testcase name="verifyMessageContent" classname="ReferralChallenge.TestReferralChallenge" time="0.001">
+    <system-out><![CDATA[Message content is: Nhập tối thiểu 9 ký tự, tối đa 14 ký tự
+TEST FAILED
+]]></system-out>
+  </testcase>
+</testsuite>

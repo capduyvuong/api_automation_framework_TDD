@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TAPTAP APIs" duration-ms="6223" started-at="2021-03-15T07:28:52Z" finished-at="2021-03-15T07:28:58Z">
+    <groups>
+      <group name="Referral Challenge">
+        <method signature="TestReferralChallenge.getMileStoneDetailIdAndName()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getMileStoneDetailIdAndName" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.getRunningReferralCodeAndName()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getRunningReferralCodeAndName" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.getStatusCodeReferralMileStoneDetail()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeReferralMileStoneDetail" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.getStatusCodeRegisterReferee()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeRegisterReferee" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.getStatusCodeRunningReferral()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeRunningReferral" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.getStatusCodeVerifyCreateReferralCode()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeVerifyCreateReferralCode" class="ReferralChallenge.TestReferralChallenge"/>
+        <method signature="TestReferralChallenge.verifyMessageContent()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="verifyMessageContent" class="ReferralChallenge.TestReferralChallenge"/>
+      </group> <!-- Referral Challenge -->
+    </groups>
+    <test name="TAPTAP APIs Automation Test" duration-ms="6223" started-at="2021-03-15T07:28:52Z" finished-at="2021-03-15T07:28:58Z">
+      <class name="ReferralChallenge.TestReferralChallenge">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="setup" is-config="true" duration-ms="5895" started-at="2021-03-15T07:28:52Z" description="Run 4 APIs Referral Challenge" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMileStoneDetailIdAndName()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getMileStoneDetailIdAndName" duration-ms="80" started-at="2021-03-15T07:28:58Z" description="Verify ID of MileStone Detail" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMileStoneDetailIdAndName -->
+        <test-method status="PASS" signature="getRunningReferralCodeAndName()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getRunningReferralCodeAndName" duration-ms="4" started-at="2021-03-15T07:28:58Z" description="Verify referral code of Running Referral Challenge" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRunningReferralCodeAndName -->
+        <test-method status="PASS" signature="getStatusCodeReferralMileStoneDetail()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeReferralMileStoneDetail" duration-ms="2" started-at="2021-03-15T07:28:58Z" description="Verify status code of API Referral MileStone Detail" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCodeReferralMileStoneDetail -->
+        <test-method status="PASS" signature="getStatusCodeRegisterReferee()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeRegisterReferee" duration-ms="2" started-at="2021-03-15T07:28:58Z" description="Verify status code of API Register Referee" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCodeRegisterReferee -->
+        <test-method status="PASS" signature="getStatusCodeRunningReferral()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeRunningReferral" duration-ms="3" started-at="2021-03-15T07:28:58Z" description="Verify status code of API Running Referral Challenge" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCodeRunningReferral -->
+        <test-method status="PASS" signature="getStatusCodeVerifyCreateReferralCode()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="getStatusCodeVerifyCreateReferralCode" duration-ms="2" started-at="2021-03-15T07:28:58Z" description="Verify status code of API verify created Referral Code" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStatusCodeVerifyCreateReferralCode -->
+        <test-method status="PASS" signature="verifyMessageContent()[pri:0, instance:ReferralChallenge.TestReferralChallenge@4a335fa8]" name="verifyMessageContent" duration-ms="4" started-at="2021-03-15T07:28:58Z" description="Verify message content" finished-at="2021-03-15T07:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessageContent -->
+      </class> <!-- ReferralChallenge.TestReferralChallenge -->
+    </test> <!-- TAPTAP APIs Automation Test -->
+  </suite> <!-- TAPTAP APIs -->
+</testng-results>

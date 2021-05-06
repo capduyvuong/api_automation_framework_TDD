@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TAPTAP APIs"  thread-count="1" parallel="methods" preserve-order="true" >
+    <test name="TAPTAP APIs Automation Test" >
+        <groups>
+            <run>
+                <include name="iViVu"/>
+                <include name="Voucher Management"/>
+                <include name="Game Challenge"/>
+                <include name="Referral Challenge"/>
+                <include name="Authentication"/>
+
+            </run>
+        </groups>
+        <classes>
+<!--            <class name="Authentication.TestAuthentication"/>-->
+            <class name="ReferralChallenge.TestReferralChallenge"/>
+
+<!--            <class name="IViVu.GetAccessToken" />-->
+<!--            <class name="IViVu.LinkCustomer" />-->
+<!--            <class name="IViVu.GetCustomerInformation" />-->
+<!--            <class name="ManageVoucher.IssueVoucher" />-->
+<!--            <class name="IViVu.GetCustomerVouchersDetail" />-->
+<!--            <class name="IViVu.GetCustomerVouchers" />-->
+<!--            <class name="IViVu.ValidateVoucher" />-->
+
+<!--            <class name="GameChallenge.TestGameChallenge" />-->
+
+<!--            <class name="GameChallenge.TestAddTransaction" />-->
+
+
+        </classes>
+    </test>
+</suite>

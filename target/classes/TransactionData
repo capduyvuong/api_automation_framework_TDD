@@ -1,0 +1,39 @@
+{
+  "data": {
+    "amount": 690000.0,
+    "billType": "REGULAR",
+    "discount": 0.0,
+    "enteredAt": 1594869902976,
+    "enteredBy": {
+      "id": 200197968,
+      "till": {
+        "code": "Till TPC ntmk 02",
+        "name": "Zero Test"
+      },
+      "store": {
+        "code": "AKA_TT_01",
+        "name": "Zero Test"
+      }
+    },
+    "billNumber": "JA04142755",
+    "grossAmount": 0.0,
+    "billClientId": "",
+    "currencyCode": " ",
+    "lineItemCount": 2,
+    "transactionId": 22238918,
+    "deliveryStatus": "DELIVERED",
+    "customerIdentifiers": {
+      "instore": {
+        "mobile": "84965708024"
+      },
+      "customerId": 4645374
+    }
+  },
+  "orgId": 151109,
+  "refId": "151109_22238918",
+  "eventId": "c733b172-0708-4fc1-b363-26a900a18d00",
+  "createdAt": 1594869904831,
+  "eventName": "transactionAdded",
+  "apiRequestId": "9829a48f-8d20-40b2-ac50-139bb5442d3c",
+  "loyaltyEventId": null
+}
